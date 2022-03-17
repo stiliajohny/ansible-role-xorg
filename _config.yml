@@ -1,0 +1,3 @@
+logo: https://github.com/(OrderedDict([('role_name', 'ansible_role_xorg'), ('author', 'John Stilia'), ('author_email', 'stilia.johny@gmail.com'), ('github_user', 'stiliajohny'), ('description', 'Install Xorg and all the required packages in ease'), ('add_travis_config', 'n'), ('add_Gitlab_CI_config', 'n'), ('license', 'GPLv3'), ('minimum_ansible_version', '3.0'), ('_template', 'gh:stiliajohny/cookiecutter-collection')]), Undefined)/ansible_role_xorg/raw/main/.assets/page_logo.png
+show_downloads: true
+theme: jekyll-theme-minimal

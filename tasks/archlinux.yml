@@ -1,0 +1,39 @@
+- name: Update  pacman database
+  pacman:
+    update_cache: true
+  become: true
+  ignore_errors: true
+
+- name: Install Xorg packages
+  package:
+    name:
+      - xorg-server
+      - xorg-xinit
+      - xorg-xrandr
+  become: true
+
+- name: Install Xorg test utilities
+  package:
+    name:
+      - xorg-xev
+      - xorg-xinput
+  become: true
+
+- name: Install autorandr for monitor hotplugging
+  pacman:
+    name: autorandr
+  become: true
+
+- name: Set correct X11 keymap
+  template:
+    src: 00-keyboard.conf.j2
+    dest: /etc/X11/xorg.conf.d/
+    mode: 0644
+  become: true
+
+- name: Copy pointer configuration file
+  copy:
+    src: 30-mouse.conf
+    dest: /etc/X11/xorg.conf.d/
+    mode: 0644
+  become: true
