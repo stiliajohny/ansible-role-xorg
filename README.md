@@ -9,23 +9,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/stiliajohny/ansible_role_xorg">
-    <img src="https://github.com/stiliajohny/ansible_role_xorg/.assets/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/stiliajohny/ansible-role-xorg">
+    <img src="https://github.com/stiliajohny/ansible-role-xorg/raw/master/.assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">ansible_role_xorg</h3>
+  <h3 align="center">ansible-role-xorg</h3>
 
   <p align="center">
     Install Xorg and all the required packages in ease
     <br />
-    <a href="https://github.com/stiliajohny/ansible_role_xorg/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stiliajohny/ansible-role-xorg/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/stiliajohny/ansible_role_xorg">View Demo</a>
+    <a href="https://github.com/stiliajohny/ansible-role-xorg">View Demo</a>
     ·
-    <a href="https://github.com/stiliajohny/ansible_role_xorg/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
+    <a href="https://github.com/stiliajohny/ansible-role-xorg/issues/new?labels=i%3A+bug&template=1-bug-report.md">Report Bug</a>
     ·
-    <a href="https://github.com/stiliajohny/ansible_role_xorg/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
+    <a href="https://github.com/stiliajohny/ansible-role-xorg/issues/new?labels=i%3A+enhancement&template=2-feature-request.md">Request Feature</a>
   </p>
 </p>
 
@@ -50,7 +50,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/stiliajohny/ansible_role_xorg/raw/main/.assets/screenshot.png)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/stiliajohny/ansible-role-xorg/raw/main/.assets/screenshot.png)
 
 <!--
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
@@ -141,7 +141,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/stiliajohny/ansible_role_xorg/raw/main/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/stiliajohny/ansible-role-xorg/raw/main/issues) for a list of proposed features (and known issues).
 
 ---
 
@@ -171,7 +171,6 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 John Stilia - stilia.johny@gmail.com
 
-
 ---
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -186,16 +185,16 @@ John Stilia - stilia.johny@gmail.com
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/ansible_role_xorg.svg?style=for-the-badge
-[contributors-url]: https://github.com/stiliajohny/ansible_role_xorg/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/stiliajohny/ansible_role_xorg.svg?style=for-the-badge
-[forks-url]: https://github.com/stiliajohny/ansible_role_xorg/network/members
-[stars-shield]: https://img.shields.io/github/stars/stiliajohny/ansible_role_xorg.svg?style=for-the-badge
-[stars-url]: https://github.com/stiliajohny/ansible_role_xorg/stargazers
-[issues-shield]: https://img.shields.io/github/issues/stiliajohny/ansible_role_xorg.svg?style=for-the-badge
-[issues-url]: https://github.com/stiliajohny/ansible_role_xorg/issues
-[license-shield]: https://img.shields.io/github/license/stiliajohny/ansible_role_xorg?style=for-the-badge
-[license-url]: https://github.com/stiliajohny/ansible_role_xorg/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/stiliajohny/ansible-role-xorg.svg?style=for-the-badge
+[contributors-url]: https://github.com/stiliajohny/ansible-role-xorg/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/stiliajohny/ansible-role-xorg.svg?style=for-the-badge
+[forks-url]: https://github.com/stiliajohny/ansible-role-xorg/network/members
+[stars-shield]: https://img.shields.io/github/stars/stiliajohny/ansible-role-xorg.svg?style=for-the-badge
+[stars-url]: https://github.com/stiliajohny/ansible-role-xorg/stargazers
+[issues-shield]: https://img.shields.io/github/issues/stiliajohny/ansible-role-xorg.svg?style=for-the-badge
+[issues-url]: https://github.com/stiliajohny/ansible-role-xorg/issues
+[license-shield]: https://img.shields.io/github/license/stiliajohny/ansible-role-xorg?style=for-the-badge
+[license-url]: https://github.com/stiliajohny/ansible-role-xorg/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/johnstilia/
 [product-screenshot]: .assets/screenshot.png
