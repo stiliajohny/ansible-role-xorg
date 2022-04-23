@@ -1,11 +1,11 @@
 - name: Update  pacman database
-  pacman:
+  community.general.pacman:
     update_cache: true
   become: true
   ignore_errors: true
 
 - name: Install Xorg packages
-  package:
+  community.general.pacman:
     name:
       - xorg-server
       - xorg-xinit
@@ -13,14 +13,14 @@
   become: true
 
 - name: Install Xorg test utilities
-  package:
+  community.general.pacman:
     name:
       - xorg-xev
       - xorg-xinput
   become: true
 
 - name: Install autorandr for monitor hotplugging
-  pacman:
+  community.general.pacman:
     name: autorandr
   become: true
 
